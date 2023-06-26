@@ -1,11 +1,11 @@
 {
-  "name": "mpesa wrapper",
+  "name": "mpesa",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
-    "install": "nuxi generate",
+    "generate": "nuxi generate",
     "preview": "nuxi preview",
     "lint": "eslint ."
   },
