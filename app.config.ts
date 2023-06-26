@@ -1,17 +1,17 @@
 export default defineAppConfig({
   docus: {
-    title: 'Docus',
-    description: 'The best place to start your documentation.',
-    image: 'https://user-images.githubusercontent.com/904724/185365452-87b7ca7b-6030-4813-a2db-5e65c785bf88.png',
+    title: '@Tash2.0',
+    description: 'The mpesa wrapper.',
+    image: '',
     socials: {
-      twitter: 'nuxtstudio',
-      github: 'nuxt-themes/docus'
+      twitter: 'mpesa@tash2.0',
+      github: 'seanbarak'
     },
     github: {
-      dir: '.starters/default/content',
+      dir: '.main',
       branch: 'main',
-      repo: 'docus',
-      owner: 'nuxt-themes',
+      repo: 'mpesa@tash2.0',
+      owner: 'Sean Baraka',
       edit: true
     },
     aside: {
@@ -24,7 +24,7 @@ export default defineAppConfig({
       fluid: true
     },
     header: {
-      logo: true,
+      logo: false,
       showLinkIcon: true,
       exclude: [],
       fluid: true
@@ -32,8 +32,8 @@ export default defineAppConfig({
     footer: {
       iconLinks: [
         {
-          href: 'https://nuxt.com',
-          icon: 'simple-icons:nuxtdotjs'
+          href: 'https://github.com/seanbaraka/mpesa-sdk',
+          icon: 'simple-icons:github'
         }
       ]
     }
